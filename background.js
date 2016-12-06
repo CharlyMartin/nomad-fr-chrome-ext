@@ -37,7 +37,7 @@ function getLocation(latitude, longitude) {
 
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.addEventListener("load", callback);
-	xmlhttp.open("PUT", "http://localhost:3000/api/update");
+	xmlhttp.open("PUT", "https://digital-nomad-map.herokuapp.com/api/update");
 	xmlhttp.setRequestHeader("Content-Type", "application/json");
 	xmlhttp.send(json_upload);
     });
