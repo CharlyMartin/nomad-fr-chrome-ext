@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
 
-    "name": "French nomads map update",
-    "description": "Send an hourly request to frnech nomad map, to set the location",
-    "version": "1.0",
+    "name": "French digital nomads map update",
+    "description": "Send an daily request to french nomad map, to update your location",
+    "version": "1.0.0",
     "permissions": [
 	"storage",
 	"alarms",
