@@ -18,5 +18,8 @@
     "options_ui": {
 	"page": "options.html",
 	"chrome_style": true
+    },
+    "icons": {
+	"160": "icon.gif"
     }
 }
