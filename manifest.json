@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+
+    "name": "French nomads map update",
+    "description": "Send an hourly request to frnech nomad map, to set the location",
+    "version": "1.0",
+    "permissions": [
+	"storage",
+	"alarms",
+	"background",
+	"geolocation",
+	"http://*/",
+	"https://*/"
+    ],
+    "background": {
+	"scripts": ["background.js"]
+    },
+    "options_ui": {
+	"page": "options.html",
+	"chrome_style": true
+    }
+}
